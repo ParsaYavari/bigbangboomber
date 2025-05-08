@@ -1034,7 +1034,7 @@ if A == "y" or A == "Y":
     
 
     def get_tor_proxy():
-        return {'http': 'socks5://127.0.0.1:9150', 'https': 'socks5://127.0.0.1:9150'}
+        return {'http': 'socks5h://127.0.0.1:9150', 'https': 'socks5h://127.0.0.1:9150'}
 
     services = [snapp, tapsi,  drnext, pindo, otaghak, digikala, virgool, snappmarket, dastakht, sibbank, alopeyksafir]
 
