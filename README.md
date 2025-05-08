@@ -37,7 +37,7 @@
         pkg install git
         pkg install python
         pip install requests
-        git clone https://github.com/par3aa/bigbangboomber
+        git clone https://github.com/ParsaYavari/bigbangboomber
     </code>
     سپس برنامه را با دستور زیر اجرا کنید
     <code>
