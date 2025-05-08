@@ -39,9 +39,11 @@ pkg install python
 pip install requests
 git clone https://github.com/ParsaYavari/bigbangboomber
 pip install user_agent
+pkg install tor
     </code>
-    سپس برنامه را با دستور زیر اجرا کنید
-    <code>
+    سپس برنامه را با دستور زیر اجرا کنید البته باید تور را اجرا کنید
+    یک ترمینال جدید باز میکنید و داخلش درستور `tor`را وارد میکنید و میزارید تا 100 درصد شود
+tor    <code>
 cd bigbangboomber
         
 python Terminal.py
