@@ -38,6 +38,7 @@ pkg install git
 pkg install python
 pip install requests
 git clone https://github.com/ParsaYavari/bigbangboomber
+pip install user_agent
     </code>
     سپس برنامه را با دستور زیر اجرا کنید
     <code>
