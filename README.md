@@ -41,7 +41,8 @@ git clone https://github.com/ParsaYavari/bigbangboomber
     </code>
     سپس برنامه را با دستور زیر اجرا کنید
     <code>
-cd BigBang Boomber
+cd bigbangboomber
+        
 python Terminal.py
     </code>
 
