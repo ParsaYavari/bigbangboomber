@@ -34,15 +34,15 @@
     سپس وارد برنامه شوید و این دستور را وارد کنید : 
 
     <code>
-        pkg install git
-        pkg install python
-        pip install requests
-        git clone https://github.com/ParsaYavari/bigbangboomber
+pkg install git
+pkg install python
+pip install requests
+git clone https://github.com/ParsaYavari/bigbangboomber
     </code>
     سپس برنامه را با دستور زیر اجرا کنید
     <code>
-        cd BigBang Boomber
-        python Terminal.py
+cd BigBang Boomber
+python Terminal.py
     </code>
 
     و برنامه اجرا میشود و قوانین را بخوانید و استفاده کنید
