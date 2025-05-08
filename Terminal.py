@@ -947,7 +947,11 @@ if A == "y" or A == "Y":
     print("Shomare Fard Morede Nazar ( Bedonee 0 )")
     num = input("  BB >")
 
-    /n* 3
+    print('‎ ')
+
+    print('‎ ')
+
+    print('‎ ')
 
     print("Tedade Spam Payam")
     numm = input("  BB >")
