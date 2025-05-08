@@ -13,6 +13,8 @@
 3 . روی install کلیک می کنید
 
 4 . سپس Tor را دانلود میکنید از لینک زیر و حتما در درایوه C : باشد
+
+
 Link : https://p30download.ir/fa/entry/95929/tor-browser
 
 5 . روی Run کلیک میکنید تا باز شود
