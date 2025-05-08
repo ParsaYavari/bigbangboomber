@@ -1046,6 +1046,7 @@ if A == "y" or A == "Y":
                 service(num, proxies=tor_proxy)
             except Exception as e:
                 print(f"{service.__name__} Error in round {i + 1}: {e}")
+        time.sleep(2)
 
 
 
