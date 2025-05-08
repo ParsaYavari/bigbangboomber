@@ -1033,9 +1033,31 @@ if A == "y" or A == "Y":
     
 
     def get_tor_proxy():
-        return {'http': 'socks5h://127.0.0.1:9150', 'https': 'socks5h://127.0.0.1:9150'}
+        return {'http': 'socks5://127.0.0.1:9150', 'https': 'socks5://127.0.0.1:9150'}
 
-    services = [snapp, tapsi,  drnext, pindo, otaghak, digikala, virgool, snappmarket, dastakht, sibbank, alopeyksafir]
+    services = [
+        snapp,               
+        tapsi,               
+        drnext,             
+        pindo,               
+        otaghak,            
+        digikala,            
+        virgool,             
+        snappmarket,       
+        dastakht,           
+        sibbank,            
+        alopeyksafir,       
+        banimod,            
+        rubika,              
+        namava,              
+        torob,               
+        football360,        
+        pubgsell,            
+        kilid,               
+        ghabzino,            
+        zoodex              
+    ]
+
 
     tor_proxy = get_tor_proxy()
 
@@ -1045,16 +1067,5 @@ if A == "y" or A == "Y":
             try:
                 service(num, proxies=tor_proxy)
             except Exception as e:
-                print(f"{service.__name__} Error in round {i + 1}: {e}")
-        time.sleep(2)
-
-
-
-
-
-        
-
-
-        
-
-
+                print(f"{service.__name__} Error in round {i + 1}: {e}")        
+        time.sleep(3)
