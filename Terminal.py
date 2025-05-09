@@ -1059,33 +1059,14 @@ if A == "y" or A == "Y":
     ]
 
 
-    proxy_list = [
-    'http://51.158.154.173:3128',
-    'http://51.158.68.68:8811',
-    'http://185.61.152.137:8080',
-    'http://94.228.192.50:8080',
-    'http://185.130.144.207:8080',
-    'http://154.236.189.34:1976',
-    'http://185.211.81.101:8080',
-    'http://5.189.184.6:80',
-    'http://185.252.29.174:8080',
-    'http://188.166.56.246:80'
-   ]
 
-def get_random_proxy():
-    ip = random.choice(proxy_list)
-    return {
-        'http': ip,
-        'https': ip
-    }
-
-for i in range(int(numm)):
-    print(f"=== Round   {i + 1} ===")
-    proxy = get_random_proxy()  
-
-    for service in services:
-        try:
-            service(num, proxies=proxy)
+        for i in range(int(numm)):
+            print(f"=== Round   {i + 1} ===")
+            proxy = get_random_proxy()  
+        
+            for service in services:
+                try:
+                    service(num)
         except Exception as e:
             print(f"{service.__name__} Error in round {i + 1}: {e}")
     time.sleep(3)
