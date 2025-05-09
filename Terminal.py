@@ -1059,10 +1059,8 @@ if A == "y" or A == "Y":
     ]
 
 
-
-        for i in range(int(numm)):
-            print(f"=== Round   {i + 1} ===")
-            proxy = get_random_proxy()  
+    for i in range(int(numm)):
+        print(f"=== Round   {i + 1} ===")  
         
             for service in services:
                 try:
