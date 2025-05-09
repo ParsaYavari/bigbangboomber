@@ -1058,14 +1058,13 @@ if A == "y" or A == "Y":
         zoodex              
     ]
 
-
-    for i in range(int(numm)):
-        print(f"=== Round   {i + 1} ===")  
-        
-            for service in services:
-                try:
-                    service(num)
-        except Exception as e:
-            print(f"{service.__name__} Error in round {i + 1}: {e}")
-    time.sleep(3)
+    tor_proxy = get_tor_proxy()
+for i in range(int(numm)):
+        print(f"=== Round   {i + 1} ===")
+        for service in services:
+            try:
+                service(num, proxies=tor_proxy)
+            except Exception as e:
+                print(f"{service.__name__} Error in round {i + 1}: {e}")
+        time.sleep(2)
 
